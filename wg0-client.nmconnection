@@ -1,1 +1,23 @@
 
+[connection]
+id=wg0
+uuid=<client-generated-uuid>
+type=wireguard
+interface-name=wg0
+
+[wireguard]
+private-key=<client-private-key>
+
+[wireguard-peer.server]
+public-key=<server-public-key>
+endpoint=<server-ip>:51820
+allowed-ips=0.0.0.0/0
+persistent-keepalive=25
+
+[ipv4]
+address1=10.0.0.2/24
+dns=1.1.1.1;8.8.8.8;
+method=manual
+
+[ipv6]
+method=ignore
