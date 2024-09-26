@@ -1,0 +1,20 @@
+[connection]
+id=wg0
+uuid=<server-generated-uuid>
+type=wireguard
+interface-name=wg0
+
+[wireguard]
+private-key=<server-private-key>
+listen-port=51820
+
+[wireguard-peer.client]
+public-key=<client-public-key>
+allowed-ips=10.0.0.2/32  # Address of the client
+
+[ipv4]
+address1=10.0.0.1/24
+method=manual
+
+[ipv6]
+method=ignore
