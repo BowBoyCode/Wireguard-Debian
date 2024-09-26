@@ -1,0 +1,42 @@
+Got it! If you're using a `.connection` file instead of a `.conf` file, you can still follow similar steps to ensure your keys are stored securely and have the correct permissions. Here's how you can do it:
+
+### Storing WireGuard Keys
+1. **Location**: Store your keys in a secure directory, such as `/etc/wireguard/`.
+2. **Permissions**: Set the correct permissions to prevent unauthorized access:
+   ```sh
+   sudo mkdir -p /etc/wireguard
+   sudo chmod 700 /etc/wireguard
+   sudo touch /etc/wireguard/privatekey /etc/wireguard/publickey
+   sudo chmod 600 /etc/wireguard/privatekey
+   sudo chmod 644 /etc/wireguard/publickey
+   ```
+
+### Generating WireGuard Keys with Correct Permissions
+1. **Generate Keys**: Use the `wg` command to generate your private and public keys, ensuring you set the correct permissions immediately:
+   ```sh
+   cd /etc/wireguard
+   umask 077
+   wg genkey | tee privatekey | wg pubkey > publickey
+   ```
+
+2. **Verify Permissions**: Check that the permissions are set correctly:
+   ```sh
+   ls -l /etc/wireguard
+   ```
+
+### Configuring NetworkManager with a .connection File
+1. **Import Configuration**: Import your WireGuard configuration into NetworkManager using your `.connection` file:
+   ```sh
+   nmcli connection import type wireguard file /path/to/your/file.connection
+   ```
+
+2. **Activate Connection**: Activate the WireGuard connection using NetworkManager:
+   ```sh
+   nmcli connection up <connection-name>
+   ```
+
+Replace `<connection-name>` with the name of your WireGuard connection as specified in your `.connection` file.
+
+By following these steps, you can securely store your WireGuard keys and configure NetworkManager using your `.connection` file.
+
+If you need any more help or have further questions, feel free to ask!
