@@ -1,4 +1,4 @@
-![Alt Text](bowboycode-chain.png)
+![Alt Text](BowBoyCode/Wireguard-Debian/blob/main/bowboycode-chain.png)
 
 
 # My Project
