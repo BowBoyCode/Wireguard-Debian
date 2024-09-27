@@ -1,9 +1,4 @@
-4
-
 ![BowBoyCode Chain](https://github.com/BowBoyCode/Wireguard-Debian/blob/main/bowboycode-vpn.png)
-
-
-
 
 # My Project
 This is my personal VPN using Debian 12 NetworkManager and Wireguard.
