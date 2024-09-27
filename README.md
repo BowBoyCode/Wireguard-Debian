@@ -1,6 +1,6 @@
 
 
-![BowBoyCode Chain](https://github.com/BowBoyCode/Wireguard-Debian/blob/main/bowboycode-chain-coding1.png)
+![BowBoyCode Chain](https://github.com/BowBoyCode/Wireguard-Debian/blob/main/bowboycode-vpn.png)
 
 
 
