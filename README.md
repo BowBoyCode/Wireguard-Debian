@@ -1,4 +1,5 @@
-![BowBoyCode Chain](https://github.com/BowBoyCode/Wireguard-Debian/blob/main/bowboycode-chain.png)
+![BowBoyCode Chain](https://raw.githubusercontent.com/BowBoyCode/Wireguard-Debian/main/bowboycode-chain.png)
+
 
 
 
