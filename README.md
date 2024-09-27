@@ -1,4 +1,5 @@
-![Alt Text](https://github.com/BowBoyCode/Wireguard-Debian/blob/main/bowboycode-chain.png)
+![BowBoyCode Chain](https://github.com/BowBoyCode/Wireguard-Debian/blob/main/bowboycode-chain.png)
+
 
 
 # My Project
