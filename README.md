@@ -3,6 +3,10 @@
 # Personal Wireguard VPN configuration.
 This is my personal VPN using Debian 12 NetworkManager and Wireguard.
 
+## Quick Reference
+https://github.com/BowBoyCode/Wireguard-Debian/blob/main/wg0-client.conf
+
+
 ## Features
 - NetworkManager configuration setup.
 - Wireguard configuration setup.
