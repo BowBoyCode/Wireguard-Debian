@@ -26,9 +26,9 @@ scp username1@remote_host1:/path/to/file username2@remote_host2:/path/to/directo
 
 #### Common Options
 
-# -r: Copy directories recursively.
-# -P <port>: Specify a custom port if the SSH server is running on a non-default port.
-# -i <identity_file>: Use a specific SSH private key.
+##### -r: Copy directories recursively.
+##### -P <port>: Specify a custom port if the SSH server is running on a non-default port.
+##### -i <identity_file>: Use a specific SSH private key.
 
 #### Example: Copying a Directory Recursively
 scp username1@remote_host1:/path/to/file username2@remote_host2:/path/to/directory
