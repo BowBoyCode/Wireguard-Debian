@@ -11,8 +11,8 @@ This is my personal VPN using Debian 12 NetworkManager and Wireguard.
 
 ![Project Screenshot](https://github.com/username/repo-name/blob/main/path-to-image.png)
 
-## Installation
-### Copying from Local to Remote
+## Installation notes
+# Copying from Local to Remote
 scp /path/to/local/file username@remote_host:/path/to/remote/directory
 scp myfile.txt user@192.168.1.100:/home/user/
 
